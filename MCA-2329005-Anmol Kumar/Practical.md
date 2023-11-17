@@ -289,8 +289,11 @@ To verify that the unique constraint is applied to the table's column and the st
    ##### 1. mysql> DESC student;  
     ![Screenshot from 2023-11-16 17-18-56](https://github.com/Soniasharma8/Practice/assets/144365209/cd4bc291-ae0b-4305-a542-3a1188ab2233)
 ##### 3. PRIMARY KEY
-    * PRIMARY KEY Constraint is a combination of NOT NULL and Unique constraints.
+    ![screenshot 2023-11-17 08-11-46](https://github.com/Ajblaster/rdbms_2023batch/assets/146934019/de549df6-4971-42c5-ad3a-d3abb22e7be9)
+* PRIMARY KEY Constraint is a combination of NOT NULL and Unique constraints.
     * NOT NULL constraint and a UNIQUE constraint together forms a PRIMARY constraint.
+![DESCRIBE teacher](htt![Screenshot from 2023-11-17 07-37-38](https://github.com/Ajblaster/rdbms_2023batch/assets/146934019/af9e3427-ea25-4ff7-bd3a-22ea9d6f2e14)
+ps://github.com/Ajblaster/rdbms_2023batch/assets/146934019/030f5a3f-32f4-4689-a0de-962264a0614f)
     * The column to which we have applied the primary constraint will always contain a unique value and will not allow null values.
 ##### Syntax of primary key constraint during table creation:
   <b>  ```1. CREATE TABLE TableName (ColumnName1 datatype PRIMARY KEY, ColumnName2 datatype,…., ColumnNameN datatype);``` </b>  

@@ -240,7 +240,7 @@ Syntax:
 <br>
 <br>
 
-**3.How to apply Constraints at variable levels.
+*3.How to apply Constraints at variable levels.*
 <br>
 
 
